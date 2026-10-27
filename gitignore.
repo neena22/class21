@@ -1,0 +1,20 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config.local.json
+*.local
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
